@@ -11,9 +11,6 @@ ReflectedXSS_V1
 this version uses both **eval(nameFromUrl);**
 and a dynamically created <script> tag to execute any JavaScript passed via the name parameter in the URL. Test it with:
 
-pgsql
-Copy
-Edit
 yourpage.html?name=alert(1)
 ReflectedXSS_V2
 ![image](https://github.com/user-attachments/assets/18ef28ba-6e62-4a7a-9265-41ab8046addf)
