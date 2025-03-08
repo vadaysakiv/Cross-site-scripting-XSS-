@@ -14,3 +14,8 @@ and a dynamically created <script> tag to execute any JavaScript passed via the 
 yourpage.html?name=alert(1)
 ReflectedXSS_V2
 ![image](https://github.com/user-attachments/assets/18ef28ba-6e62-4a7a-9265-41ab8046addf)
+
+
+
+**eval(userInput); Executes Any JS
+Example: ?input=alert(1) will execute immediately.**
